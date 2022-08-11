@@ -1,0 +1,35 @@
+.login-container{
+    height: 50vh;
+    width: 50%;
+    margin-right: auto;
+    margin-top: 30vh;
+    margin-left: 8%;
+    display: flex;
+}
+
+.login-title{
+    background-color: rgb(86, 234, 245);
+    height: 50vh;
+    width: 35%;
+    text-align: center;
+    display: flex;
+}
+
+.title{
+    margin: auto;
+    color: rgb(18, 18, 39);
+}
+
+.login-form{
+    height: 50vh;
+    width: 65%;
+    border: 3px solid rgb(86, 234, 245);
+    padding: 5%;
+}
+
+.login-btn{
+    margin-top: 2vh;
+    color: rgb(18, 18, 39);
+    background-color: rgb(86, 234, 245);
+    width: 100%;
+}
