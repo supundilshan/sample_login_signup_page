@@ -1,13 +1,25 @@
-import React, { Component } from 'react';
+// import { Outlet, Link } from "react-router-dom";
 
-class About extends Component {
-    render() {
-        return (
-            <div>
-                About
-            </div>
-        );
-    }
-}
+// const Layout = () => {
+//   return (
+//     <>
+//       <nav>
+//         <ul>
+//           <li>
+//             <Link to="/">Home</Link>
+//           </li>
+//           <li>
+//             <Link to="/login">Login</Link>
+//           </li>
+//           <li>
+//             <Link to="/signin">Signin</Link>
+//           </li>
+//         </ul>
+//       </nav>
 
-export default About;
+//       <Outlet />
+//     </>
+//   )
+// };
+
+// export default Layout;
