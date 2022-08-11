@@ -7,11 +7,11 @@ import NavBar from './components/NavBar';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container">
       {/* <Home/>
       <About/> */}
-      <NavBar/>
-      {/* <BrowserRouter>
+      {/* <NavBar/> */}
+      <BrowserRouter>
         <Routes>
           <Route path='/' element={<About/>}>
             <Route index element={<Home/>}/>
@@ -19,7 +19,7 @@ function App() {
             <Route path='signin' element={<Signin/>}/>
           </Route>
         </Routes>
-      </BrowserRouter> */}
+      </BrowserRouter>
     </div>
   );
 }
