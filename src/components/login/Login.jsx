@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Navigate} from 'react-router-dom';
 import './LoginStyles.css'
 
 class login extends Component {
@@ -6,13 +7,21 @@ class login extends Component {
         super(props);
         this.state = {
             email:'',
-            password:''
+            password:'',
+            autheraized:false
         }
-    }
-    
+    } 
 
-    onSubmithandle = () =>{
-        alert(JSON.stringify(this.state));
+    onSubmithandle = (e) =>{
+        e.preventDefault();
+        if(this.state.email == "kasunpk256@gmail.com" && this.state.password == "123"){
+            // alert(JSON.stringify(this.state));
+            this.setState({goToDashboardPge: true});
+            sessionStorage.setItem('token', "[qK5fy5d#KMA*sAf");
+        }
+        else{
+            alert("IIncorrect E-mail or Password");
+        }
         // console.log(this.state.email)
     }
     
@@ -25,6 +34,9 @@ class login extends Component {
 
 
     render() {
+        if(this.state.goToDashboardPge) {
+            return <Navigate to={{pathname:'/dashboard'}}/>
+        }
         return (
             <div className='login-container'>
                 <div className="login-form ">

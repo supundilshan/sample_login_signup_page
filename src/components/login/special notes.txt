@@ -1,0 +1,4 @@
+Session storage is a popular choice when it comes to storing data on a browser. 
+It enables developers to save and retrieve different values. 
+Unlike local storage, session storage only keeps data for a particular session. 
+The data is cleared once the user closes the browser window.
