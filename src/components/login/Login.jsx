@@ -27,7 +27,7 @@ class login extends Component {
     render() {
         return (
             <div className='login-container'>
-                <div className="login-form">
+                <div className="login-form ">
                 <form onSubmit={this.onSubmithandle}>
                     <div className="form-group">
                         <label htmlFor="exampleInputEmail1">Email address</label>

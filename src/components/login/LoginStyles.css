@@ -33,3 +33,19 @@
     background-color: rgb(86, 234, 245);
     width: 100%;
 }
+
+@media only screen and (max-width: 600px) {
+    .login-container{
+        height: 50vh;
+        width: 50%;
+        margin-right: auto;
+        margin-top: 30vh;
+        margin-left: 8%;
+    }
+    .login-title{
+        background-color: rgb(233, 9, 9);
+        height: 50vh;
+        width: 35%;
+        text-align: center;
+    }
+  }
